@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick notes</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="note.css">
+
+</head>
+
+<body class="flex items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-md flex flex-col gap-4">
+
+        <!-- Heading -->
+        <h1 class="text-xl font-normal text-white">Quick notes</h1>
+
+        <!-- Notes Textarea -->
+        <textarea id="quickNoteInput" placeholder="Write something..." rows="6"
+            class="w-full bg-[#121212] border border-zinc-700 text-white placeholder-zinc-500 text-base rounded-xl p-4 focus:outline-none focus:border-zinc-500 transition-colors resize-y"></textarea>
+
+    </div>
+
+    <script src="note.js"></script>
+
+
+</body>
+
+</html>
